@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shaleeka Bandara - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+            background-color:#797D7F ;
+        }
+
+        main {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .page {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color:#000983;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+			border-style: ridge;
+        }
+
+        .page:hover {
+            transform: translateY(-10px);
+        }
+
+        .page-image img {
+            width: 250px;
+            height: auto;
+            border-radius: 30%;
+            margin-left: 100px;
+        }
+
+        .page-content {
+           
+			align-items:center;
+			
+			
+
+        }
+
+        .page-content h1 {
+            font-size:50px;
+			
+            color:#fcfeff ;
+        }
+
+        .page-content h3 {
+            font-size: 40px;
+            color:#212F3C;
+        }
+
+        .page-content p {
+            font-size:30px;
+            color: #212F3C;
+        }
+
+        .main-content {
+            background-color:#154360;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-heading h2 {
+            font-size: 1.8em;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+        }
+
+        .card-content {
+            padding: 20px;
+            text-align: center;
+			background-color:#76C1C6 ;
+        }
+
+        .card-content h1 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .card-content p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .card-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            border-top: 1px solid #444;
+            position: relative;
+        }
+
+        .footerContent p {
+            margin: 0;
+        }
+
+        .footerlink a {
+            color: #fff;
+            font-size: 1.5em;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footerlink a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section class="page">
+        <div class="page-image">
+            <img src="shaleeka.jpg" alt="Shaleeka Bandara">
+        </div>
+        <div class="page-content">
+            <h1>Shaleeka Bandara</h1>
+            <br>
+            <h3>IIT ID : 20232912</h3>
+            <h3>UOW ID : W2082842</h3>
+            <br>
+            <p>Role : Student 1</p>
+        </div>
+    </section><br>
+
+    <section>
+        <div class="main-content">
+            <div class="card-heading">
+                <h2>The following pages were edited by me!</h2>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="file-lZVT0xtCAv87mUWJKQSnra0K.jpg" alt="content">
+                    <div class="card-content">
+                        <h1>SPLASH SCREEN</h1>
+                        <p>I created a splash screen.</p>
+                        <br><a href="splash.html" class="card-button" target="_blank">LINK TO SPLASH SCREEN</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="file-lZVT0xtCAv87mUWJKQSnra0K" alt="team">
+                    <div class="card-content">
+                        <h1>SHOP</h1>
+                        <p>I created a shop using HTML and CSS.</p>
+                        <br><a href="shop cw.html" class="card-button" target="_blank">LINK TO SHOP</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="file-lZVT0xtCAv87mUWJKQSnra0K" alt="additional">
+                    <div class="card-content">
+                        <h1>content</h1>
+                        <p>This is an content page I designed using HTML and CSS. It showcases additional content or functionality.</p>
+                        <br><a href="content.html" class="card-button" target="_blank">LINK TO CONTENT PAGE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footerContent">
+        <p>Designed by @Shaleeka Bandara</p>
+        <div class="footerlink"><a href="#" class="fa fa-arrow-up"></a></div>
+        <br>
+    </div>
+</footer>
+</body>
+</html>
